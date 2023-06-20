@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    background-image: url('background-icecream.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+
+/* Header */
+
+.main-header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/icecreambanner.jpg');
+    width: 400px;
+    height: 180px;
+    background-size:100% 100%;
+    padding: 20px 0px 0px 25px;
+    box-sizing: border-box;
+    color:white;
+    border-radius: 15px;
+}
+
+.main-header p 
+{
+    margin-top: 5px;
+}
+
+.main-header h1
+{
+    margin-bottom: 10px;
+}
+
+.main-header h1, .main-header p
+{
+    text-shadow: 0px 0px 3px black;
+}
+
+
+/* Order div */
+
+.side-div
+{
+    background-color: white;
+    padding: 30px 0px 0px 20px;
+    box-sizing: border-box;
+}
+
+.side-div h1
+{
+    color: #BB5E8D;
+}
+
+.small-div
+{
+    width: 400px;
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+
+/* Discount div */
+.discount-div
+{
+    background-image: url('discount-banner.jpg');
+    height: 150px;
+    border-radius: 15px;
+    margin: -20px;
+    width: 400px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 20px
+}
+
+.discount-div h2
+{
+    text-shadow: 0px 0px 3px black;
+}
+
+
+/* Layout */
+
+.flex-container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.section-div
+{
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.main-div
+{
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.food-div
+{
+    
+}
+
+.food-list, .order-list
+{
+    padding-left: 0px;
+    margin-left: 30px;
+}
+
+.order-list{
+
+   
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.column-div
+{
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 220px;
+}
+
+
+.row-order
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.order-totalprice
+{
+    margin-left: 120px;
+    width: 20px;
+}
+
+.order-quantity
+{
+    width: 20px;
+    margin-left: 100px;
+}
+
+.fullorder-total-price
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 193px;
+}
+.order-name
+{
+    width: 100px;
+}
+
+.order-remove
+{
+    color: gray;
+    font-size: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.order-quantity
+{
+    margin-left: 20px;
+}
+
+/*  button */
+.add-btn
+{
+    border-radius: 150px;
+    height: 40px;
+    width: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid #C992A4;
+    background-color: white;
+    color: #BB5E8D;
+}
+
+.complete-button
+{
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: 1px solid #BB5E8D;
+    color: #BB5E8D;
+    background-color: white;
+    margin-top: 50px;
+    width: 300px;
+    
+}
+
+.complete-div
+{
+    text-align: center;
+}
+
+/* List */
+ul
+{
+    list-style-type: none; 
+}
+
+.row-li
+{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Icons */
+.emoji-icon
+{
+    font-size: 50px;
+}
+
+
+/* Modal */
+
+.modal
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.inner-modal 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal button
+{
+    width: 300px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #BB5E8D;
+}
+
+.inner-modal input
+{
+    width: 300px;
+    margin: 5px auto;
+    border: 1px solid #BB5E8D;
+    padding: 10px 20px
+}
+/* Utility */
+.border-top
+{
+    border-top: 1px solid black;
+}
+
+.hidden
+{
+    display:none;
+}
+
